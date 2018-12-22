@@ -193,7 +193,7 @@ type(x)
 
 ################################################################################
 
-#Web Services and XML
+# WEB SERVICES AND XML
 
 #When data leaves your system to go through the web, you SERIALIZE them
 #serialization: transform data in a more general format that can be read from any system
@@ -232,17 +232,40 @@ type(x)
 
 import xml.etree.ElementTree as ET
 
+################################################################################
+
+# JSON AND REST ARCHITECTURE
+
+#JSON: JavaScript Object Notation
+
+#XML is very powerful and in simple situation it can be more than we need
+
+#JSON represents data as nested "lists" and "dictionaries" --> easier to use
+
+
+#Use XML ONLY if you are dealing with something very complex that does not work with JSON
 
 ################################################################################
 
+#Service Oriented Approach:
+#the data in each application is offered up as a service which any other application can consume
+    #APIs:  ways to use web protocols to access data on systems, using well defined
+    #       and structured approaches
+    #APIs consists of a service layer to offer data in a common format reusable elsewhere
+    #the strenght is that new or different applications can simply plug to the API and access the data
 
 ################################################################################
 
+#API: Application Programming Interface
+
+#The API is the specification for what the URL patterns are,
+#what is the syntax of data to send
+#what is the syntax of data we can expect to get back
+
 ################################################################################
 
+#API Security and Rate Limit
 
-
-################################################################################
 
 ################################################################################
 
