@@ -193,15 +193,37 @@ type(x)
 
 ################################################################################
 
-#Web Scraping
+#Web Services and XML
+
+#When data leaves your system to go through the web, you SERIALIZE them
+#serialization: transform data in a more general format that can be read from any system
+
+#When data arrives to destination system, they are DESERIALIZED
+#deserialization: convert serialize data (general format) to format used in the other system
 
 ################################################################################
 
+#serialization
+#1) XML
+#2) JSON  --> more modern
+#3) ...
+
+#XML: eXtensible Markup Language
+#it works similarly to HTML because it uses tags
+# <person>
+#     <person>
+#         <name>Chuck</name>
+#         <phone>1234 5678</phone>
+#     </person>
+# </person>
+
+#simple element: basic component with no child
+#complex element: components with at least one child
+#identing is not relevant
 
 
-################################################################################
-
-
+#The standard XML schema to be used is defined by W3C and is called XSD (S stands for Schema)
+#remember the schema is used to validate and accept the XML content
 
 ################################################################################
 
