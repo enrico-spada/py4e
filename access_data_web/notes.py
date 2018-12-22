@@ -224,8 +224,13 @@ type(x)
 
 #The standard XML schema to be used is defined by W3C and is called XSD (S stands for Schema)
 #remember the schema is used to validate and accept the XML content
+    #we can see the schema as the structure/onstraints of the XML content
 
 ################################################################################
+
+#Parsing XML
+
+import xml.etree.ElementTree as ET
 
 
 ################################################################################
