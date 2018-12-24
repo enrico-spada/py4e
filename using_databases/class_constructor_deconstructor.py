@@ -10,12 +10,12 @@ class PartyAnimal:
         print("So far", self.x)
 
     #Deconstructor
-    def __del__(self):
+    def __del__(self):                      #this is executed right before the object is thrown away
         print("I am decostructed", self.x)
 
 
 an = PartyAnimal()
 an.party()
 an.party()
-an = 42
+an = 42                 #throw away the old object in that memory location
 print("an contains", an)
