@@ -9,7 +9,7 @@ TWITTER_URL = "https://api.twitter.com/1.1/friends/list.json"
 
 conn = sqlite3.connect("twitter_spider.sqlite")
 cur = conn.cursor()
-
+ 
 cur.execute('''
 CREATE TABLE IF NOT EXISTS TWITTER
 (NAME TEXT, RETRIEVED INTEGER, FRIENDS INTEGER)
