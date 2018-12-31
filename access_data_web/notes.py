@@ -20,6 +20,9 @@ $        Matches the end of the line
 (        Indicates where string extraction is to start
 )        Indicates where string extraction is to end
 
+# re.findall(r'\w+', open('hamlet.txt').read().lower())
+#r' means the expression is a raw string for which escape sequences are not parsed
+#"[\\w]" is equivalent to r"[\w]"
 ################################################################################
 
 #they are not built-in
