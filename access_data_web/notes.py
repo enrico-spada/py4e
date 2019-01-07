@@ -34,6 +34,15 @@ re.search()
 #EXTRACT portion of string that match the regex --> similar to combine find() and slicing
 re.findall()
 
+
+# re.findall(A, B) | Matches all instances of an expression A in a string B and returns them in a list.
+#
+# re.search(A, B) | Matches the first instance of an expression A in a string B, and returns it as a re match object.
+#
+# re.split(A, B) | Split a string B into a list using the delimiter A.
+#
+# re.sub(A, B, C) | Replace A with B in the string C.
+
 ################################################################################
 
 #Wildcards
